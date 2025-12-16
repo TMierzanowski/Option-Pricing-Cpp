@@ -12,7 +12,7 @@ int main() {
 
     //Choosing the type of option
     char callput;
-    std::cout << "Wybierz typ opcji (C = Call, P = Put): ";
+    std::cout << "Choose option type (C = Call, P = Put): ";
     std::cin >> callput;
 
     OptionType optType;
@@ -31,7 +31,7 @@ int main() {
     std::cout << "Spot: " << spot << ", Strike: " << strike << std::endl;
     std::cout << "Maturity: " << T << " years, Vol: " << vol * 100 << "%" << std::endl;
     
-    std::cout << std::endl << "[Pricing]" << std::endl;
+    std::cout << std::endl << "Pricing" << std::endl;
     
     //Black-Scholes
     double bs_price = Option.BlackScholes();
