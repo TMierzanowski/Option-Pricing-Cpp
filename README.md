@@ -15,10 +15,10 @@ $$dS_t = r S_t dt + \sigma S_t dW_t$$
 ## How to Build & Run
 Project includes a standard Makefile.
 
-Prerequisites:
-*C++ compiler supporting C++17
-*Build system: GNU Make
-*OS: Linux, macOS, Windows (WSL/MinGW)
+##Prerequisites:
+* C++ compiler supporting C++17
+* Build system: GNU Make
+* OS: Linux, macOS, Windows (WSL/MinGW)
 
 1. Compile (in bash): make
 2. Run the engine: ./pricer (Windows without WSL: pricer.exe)
